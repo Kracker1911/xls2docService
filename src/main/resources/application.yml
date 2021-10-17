@@ -1,0 +1,28 @@
+server:
+  address: 127.0.0.1
+  port: 8888
+spring:
+  application:
+    name: xls2doc
+  datasource:
+    url: jdbc:mysql://localhost:3306/weixin_project?characterEncoding=utf8&useSSL=true&
+    name: weixin_project
+    username: wwt
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+mybatis:
+  mapperLocations: classpath:xyz/kracker1911/xls2doc/business/dao/*.xml  #指定*Mapper.xml的位置

@@ -1,0 +1,50 @@
+{
+  "wx_push_event_subscribe": [
+    {
+      "key": "",
+      "reply": "欢迎您参加许振涛&&孙小康的结婚典礼！"
+    }
+  ],
+  "wx_push_event_unsubscribe": [
+    {
+      "key": "",
+      "reply": ""
+    }
+  ],
+  "wx_push_event_scan": [
+    {
+      "key": "",
+      "reply": ""
+    }
+  ],
+  "wx_push_event_click": [
+    {
+      "key": "about_us",
+      "reply": "终于结婚啦！"
+    }
+  ],
+  "wx_push_event_text": [
+    {
+      "key": "ok",
+      "reply": "已收到祝福，谢谢！"
+    },
+    {
+      "key": "fail",
+      "reply": "好像没有保存好呢，请重试一下，谢谢！"
+    },
+    {
+      "key": "bad",
+      "reply": "好像有不好的词呢，麻烦请斟酌词汇再发送祝福，感谢！"
+    },
+    {
+      "key": "bad_length",
+      "reply": "祝福语请尽量保持在5到200字之间哦，谢谢！"
+    }
+  ],
+  "wx_push_event_default": [
+    {
+      "key": "",
+      "reply": "抱歉，暂时只支持文字交互！"
+    }
+  ]
+}
